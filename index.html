@@ -1,0 +1,271 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='images/2vixeysit_speedrun.png' rel='shortcut icon' type='image/png'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="header">
+    <!--<h1 onclick="window.open(`index.html`, `_self`)">halloween</h1>-->
+    <div class="parentDiv">
+      <div class="nav">
+        <div class="webname" onclick="window.open(`index.html`, `_self`)">
+        <img src="images/2vixeysit_speedrun.png" style="width: 50px; height: 50px; padding-left: 5px; ">
+        <h2>halloween</h2>
+        <p>Made by Michal Strotinský</p>
+    </div>
+    <ul>
+        <li> <a class="active" href="index.html">Home</a> </li>
+        <li> <a href="gallery.html">Gallery</a> </li>
+        <li> <a href="tutorials.html">tutorials</a> </li>
+        <li> <a href="about.html">about</a> </li>
+    </ul>
+   </div>
+</div>
+</div>
+    <style>
+        
+hr:hover {
+   transform: scale(1.1);
+}
+.nav .webname {
+    float:left;
+    display: inline;
+    text-align: center;
+    position: -webkit-sticky; 
+  position: sticky;
+}
+.nav .webname h2{
+    position: relative;
+    float:left;
+    text-transform: uppercase;
+    color:#ff7b00;
+    padding: 0;
+    
+}
+ .webname p {
+    float: left;
+    padding: 0;
+    margin-top: 22px;
+    padding-left: 10px;
+    position: relative;
+    color: #c2a58a;
+}
+.webname img {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+    
+    
+}
+.webname:hover {
+    cursor: pointer;
+}
+
+.webname h2:hover {
+    cursor: pointer;
+    color:#ffa450;
+    filter:hue-rotate(360deg);
+    transition: 5s ease-in-out;
+}
+.webname h2:not(:hover) {
+   
+    color:#ff7b00;
+    transition: 5s;
+}
+.nav li {
+  display: inline-flex;
+   float: left;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: rgb(41, 37, 30);
+ margin-top: 5px;
+}
+.nav {
+  position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(41, 37, 30);
+    position: -webkit-sticky; 
+  position: sticky;
+}
+.nav a {
+   display: inline-block; 
+ background-color: rgb(41, 37, 30);
+ color: white;
+ margin: 0 ;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ border-bottom: 2px solid transparent;
+}
+
+
+.nav a:hover {
+   background-color:rgb(66, 56, 42);
+   border-bottom: 2px solid #ff7b00;
+   transition: 1s;
+   
+}
+.nav .active {
+   color: #ff7b00;
+   border-bottom: 2px solid #ff7b00;
+   
+}
+.nav ul {
+ 
+    margin: 0;
+   margin-right: 10px;
+    display: inline-flex;
+   padding: 0;
+   margin-top: 5px;
+   float:right;
+   background-color: rgb(41, 37, 30);
+}
+.parentDiv {
+    background-color: rgb(41, 37, 30);
+   margin: 0;
+  width: 100%;
+   display: inline-block;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  
+}
+
+
+   </style>
+</head>
+<body>
+    <div class="body1">
+    <img src="/images/pumpkin.png" class="pic">
+    <img src="/images/pumpkin.png" class="pic2"> 
+    
+    <div class="text">
+    <h2>Welcome to halloween</h2>
+   <p style="text-align: center;">Thank you for visiting <strong>Halloween</strong>! <br> Here we spread the halloween spirit with our <span style="color:#ffb168">tips</span> and <span style="color:#ffb168">tutorials</span><br> Been here since the first halloween and will continue to exist!<br>Get a candy for every visit (we dont want to get tricked..)</p>
+
+   <h2>watch and learn</h2>
+   <p style="text-align: center;"> Thanks to our tutorial videos <strong>YOU</strong> can learn how to carve a pumpkin!<br>Many more tutorials can also be found at our <a target="_blank" href="https://youtube.com" style="color: #b950ff;">youtube</a> channel</p> <!--Žádný youtube channel neexistuje-->
+
+   <h2>afraid of spooks?</h2>
+   <p style="text-align: center;">You don't have to worry at all!<br>Those <i>"monsters"</i> are just humans in scary costumes. <br><i>Disclaimer: Not all we say can be trusted ;3</i></p> 
+</div>
+</div>
+<h2 class="hot">Hot topics</h2>
+
+<div class="hotvideos">
+  <iframe  class="ythome" src="https://www.youtube.com/embed/QRCp4TQ_-co"></iframe>
+  <iframe  class="ythome" src="https://www.youtube.com/embed/ER8D6h9dZjw"></iframe>
+  <iframe  class="ythome" src="https://www.youtube.com/embed/THpzbsM4EqU"></iframe>
+</div>
+   
+ <!--videa + other-->
+    <style>
+      @keyframes glow {
+        to {
+          filter: drop-shadow(0 0 5px #ff7b00) ;
+          transform: scale(1.1);
+        }
+      }
+      .ythome {
+        
+        width: 500px;
+        height: 300px;
+        background-color: rgb(66, 56, 42);
+        padding: 10px;
+        box-shadow: 0 0 10px ;
+        margin: 0 auto;
+        border: none;
+      }
+      .ythome:hover {
+        box-shadow: 0 0 10px #ff7b00;
+        transition: 1s;
+      }
+      .ythome:not(:hover) {
+        box-shadow: 0 0 10px;
+        transition: 1s;
+      }
+     
+      .hotvideos {
+        display: flex;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: rgb(53, 43, 30);
+        box-shadow: 0 0 50px rgb(53, 43, 30);
+        flex-wrap:wrap
+        
+      }
+      
+      .body1 {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap:wrap;
+      }
+      .pic {
+        width: 500px; 
+        height: 500px; 
+        margin:0 auto; 
+        padding:10px;
+        transform: rotate(-25deg);
+        animation: glow 2s infinite  ease-in-out alternate;
+      }
+      .pic2 {
+        width: 500px; 
+        height: 500px; 
+        margin:0 auto;
+        float: right; 
+        padding:10px;
+        transform: rotate(25deg);
+        animation: glow 2s infinite  ease-in-out alternate;
+      }
+      
+      .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: auto; 
+  
+  height: 450px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(66, 56, 42);
+  padding: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0 0 10px ;
+}
+.hot {
+  background-color: rgb(41, 37, 30);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0 0 10px rgb(41, 37, 30);
+  border-radius: 10px;
+}
+/*.text:hover {
+  box-shadow: 0 0 10px #ff7b00;
+  transition: 1s;
+} */
+      </style>
+      </head>
+      <body>
+      
+      
+      
+      
+      <div class="footer">
+        <p><img class="ghost" src="images/avatar.jpg" style="width: 20; border:1px solid #571551; border-radius: 25px; left:50%; right: 50%; float:left; margin-left: 19px;" >
+            @raiderko on discord
+            <a target="_blank" href="https://moodle.spscv.cz/user/profile.php?id=1258"><img class="ghost" src="https://moodle.spscv.cz/theme/image.php/boost/theme/1603619307/favicon" style="width: 20; right:50%; right: 50%; float:right; margin-right: 19px; opacity: 100;" ></a></p>
+      </div>
+</body>
+</html>
